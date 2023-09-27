@@ -1,0 +1,17 @@
+Created by testinium on 27.09.2023
+
+This is a concept file with following syntax for each concept.
+#Ürünün favoriye eklendiği kontrol edilir
+*"productList__title" yüklenmesi beklenir "classname"
+*"classname" tipinde "productList__title" varlığı kontrol edilir "Favorilerim yazısı yüklenmedi"
+
+#Ürün favorilerden çıkarılır
+*"//div[contains(@data-order,'2')]" yüklenmesi beklenir "xpath"
+*"//div[contains(@data-order,'2')]" Elementin üstüne gelinir "xpath"
+*"[width='13']" yüklenmesi beklenir "css"
+*Sayfada "css" ile "[width='13']" tıklanır
+*"3" saniye kadar bekle
+
+#Ürünün favoriye eklendiği kontrol edilir ve çıkarılır
+*Ürünün favoriye eklendiği kontrol edilir
+*Ürün favorilerden çıkarılır

@@ -1,0 +1,29 @@
+Created by testinium on 27.09.2023
+
+This is a concept file with following syntax for each concept.
+# Ürün favorilere eklenir
+*"button:nth-of-type(3) > [height='30']" yüklenmesi beklenir "css"
+*Sayfada "css" ile "button:nth-of-type(3) > [height='30']" öğesine scroll yapılır
+*"css" tipinde "button:nth-of-type(3) > [height='30']" varlığı kontrol edilir "Favoriye ekle butonu yüklenmedi"
+*Sayfada "css" ile "button:nth-of-type(3) > [height='30']" tıklanır
+
+#Giriş yap butonuna tıklanır
+*"//a[contains(@class,'btn -black modal__button -login')]" yüklenmesi beklenir "xpath"
+*"xpath" tipinde "//a[contains(@class,'btn -black modal__button -login')]" varlığı kontrol edilir "Giriş yap butonu yüklenmedi"
+*Sayfada "xpath" ile "//a[contains(@class,'btn -black modal__button -login')]" tıklanır
+
+#Ürün favorilere eklenip giriş yap butonuna tıklanması beklenir
+*Ürün favorilere eklenir
+*Giriş yap butonuna tıklanır
+
+#Favoriler sayfasına gidilir
+*".-favorite.new-header__icon" yüklenmesi beklenir "css"
+*"css" tipinde ".-favorite.new-header__icon" varlığı kontrol edilir "Favoriler butonu yok"
+*Sayfada "css" ile ".-favorite.new-header__icon" tıklanır
+
+#Giriş sonrası ürün tekrar favoriye eklenir ve favorilere gidilir
+*Ürün favorilere eklenir
+*Favoriler sayfasına gidilir
+
+
+

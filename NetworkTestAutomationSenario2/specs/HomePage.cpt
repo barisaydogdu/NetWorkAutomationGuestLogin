@@ -1,0 +1,27 @@
+Created by testinium on 27.09.2023
+
+This is a concept file with following syntax for each concept.
+#Ağ sayfasına gidilir
+*Sayfanın yüklenmesi beklenir
+*"xpath" tipinde "//img[contains(@class,'new-header__logo')]" varlığı kontrol edilir "Logo Yok!"
+*"https://www.network.com.tr/" URL'sinin geldiği kontrol edilir
+
+#Cerez kabul edilir
+*"onetrust-group-container" Çerez var mı kontrol edilir
+*"onetrust-accept-btn-handler" butonu ile kabul edilir
+*"4" saniye kadar bekle
+
+mega-menu__layout -sidebar
+#Elementin Üstüne Hover Edilir ve Kadın Seçilir
+*"css" tipinde ".navbar__link[href='/kadin-giyim-684']" varlığı kontrol edilir "Kadın Elementi Yüklenmedi"
+*".navbar__link[href='/kadin-giyim-684']" Elementin üstüne gelinir "css"
+*".sidebar__item[href='/kadin-giyim-2184'] > .sidebar__text" yüklenmesi beklenir "css"
+*"css" tipinde ".sidebar__item[href='/kadin-giyim-2184'] > .sidebar__text" varlığı kontrol edilir "Mega Menü Gelmiyor"
+//li[@class='navbar__item -hover']//a[.='Etek']
+*"xpath" tipinde "//li[@class='navbar__item -hover']//a[.='Etek']" varlığı kontrol edilir "Item bulunamadı"
+*Sayfada "xpath" ile "//li[@class='navbar__item -hover']//a[.='Etek']" tıklanır
+
+# Network anasayfasının başarılı bir şekilde yüklenmesi beklenir
+*Ağ sayfasına gidilir
+*Cerez kabul edilir
+*Elementin Üstüne Hover Edilir ve Kadın Seçilir

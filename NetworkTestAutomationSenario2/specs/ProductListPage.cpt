@@ -1,0 +1,25 @@
+Created by testinium on 27.09.2023
+
+This is a concept file with following syntax for each concept.
+#Sıralama butonuna tıklanır
+*"//span[@class='tool__text']" yüklenmesi beklenir "xpath"
+*"xpath" tipinde "//span[@class='tool__text']" varlığı kontrol edilir "Sıralama butonu yüklenmedi"
+*Sayfada "xpath" ile "//span[@class='tool__text']" tıklanır
+
+#İndirim oranına göre elementi seçilir ve tıklanır
+*"//span[contains(.,'İndirim oranına göre')]" yüklenmesi beklenir "xpath"
+*"xpath" tipinde "//span[contains(.,'İndirim oranına göre')]" varlığı kontrol edilir "İndirim oranına göre butonu yüklenmedi"
+*Sayfada "xpath" ile "//span[contains(.,'İndirim oranına göre')]" tıklanır
+
+
+#Listelenen ürünlerden ilki seçilir
+
+*"productList" yüklenmesi beklenir "classname"
+*"classname" tipinde "productList" varlığı kontrol edilir "Product List yüklenmedi"
+*Sayfada "productList" listelenen indirimli seçilir
+
+# Ürünlerin indirim oranına göre başarılı bir şekilde listelenmesi ve seçilmesi beklenir
+*Sıralama butonuna tıklanır
+*İndirim oranına göre elementi seçilir ve tıklanır
+*Listelenen ürünlerden ilki seçilir
+

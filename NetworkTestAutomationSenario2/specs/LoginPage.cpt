@@ -1,0 +1,25 @@
+Created by testinium on 27.09.2023
+
+This is a concept file with following syntax for each concept.
+#Giriş yap sayfasına gidilir
+*"pageLogin__title" yüklenmesi beklenir "classname"
+*"classname" tipinde "pageLogin__title" varlığı kontrol edilir "Giriş yap sayfası doğru yüklenmedi"
+
+#CSV Dosyası Okunur
+//*"3" saniye kadar bekle
+* Sayfa kullanıcının CSV dosyasını açar
+ *Sayfa CSV dosyasından kullanıcı bilgilerini okur
+
+# Başarı ile giriş yapılır
+*"n-input-email" yüklenmesi beklenir "id"
+*"//button[contains(.,'GİRİŞ YAP')]" yüklenmesi beklenir "xpath"
+*"xpath" tipinde "//button[contains(.,'GİRİŞ YAP')]" varlığı kontrol edilir "Giriş yap butonu yüklenmedi!"
+*Kullanıcı bilgileri doldurulur
+*Sayfada "xpath" ile "//button[contains(.,'GİRİŞ YAP')]" tıklanır
+
+
+#Başarılı bir şekilde kullanıcı bilgilerinin doldurulması ve giriş yapması beklenir
+*Giriş yap sayfasına gidilir
+*CSV Dosyası Okunur
+*Başarı ile giriş yapılır
+*"10" saniye kadar bekle
